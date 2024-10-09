@@ -21,9 +21,23 @@ A new  preventative aides drug (triUmpsal) is under test in clinical trials. Con
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
+$H_0$:The vaccine is not effective in preventing women from contracting aids.   
+$H_A$:The vaccine is effective in preventing women from contracting aids.   
+
+Infected~Cat   
+Vaccine~Cat   
+Cat~Cat   
+
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
+
+```{r}
+women <- triUmp[triUmp$gender=='F',]
+women
+```
+
+
 
 ## Descriptive Results
 
